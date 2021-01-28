@@ -176,3 +176,185 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0px 0px 0px 16px;
 }
+
+@media only screen and (max-width: 768px) {
+
+  /* INFORMATION */
+
+  .information {
+    /* padding-top: 3rem; */
+  }
+
+  .information--title {
+  }
+
+  .information--wrapper {
+    /* display: flex; */
+    flex-direction: column-reverse;
+  }
+
+  .information--table {
+    /* padding: .5rem; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    min-width: 80%;
+  }
+
+  .information--general {
+    /* padding: .5rem; */
+    margin: 1rem auto;
+    max-width: 80%;
+  }
+
+  /* YOUR CARDS */
+
+  .your-cards {
+    margin-top: 1rem;
+  }
+
+  .your-cards--list {
+    /* margin-top: 1rem; */
+    font-size: small;
+  }
+
+  .your-cards--list .card-title, .card-text {
+    /* margin-top: 1rem; */
+    font-size: small;
+  }
+
+  /* TRANSACTIONS */
+
+  .transactions {
+    padding-top: 3rem;
+  }
+
+  .transactions--title {
+  }
+
+  .transactions--wrapper {
+    /* display: flex; */
+    flex-direction: column;
+  }
+
+  .transactions--table {
+    /* padding: .5rem; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    min-width: 80%;
+  }
+
+  /* BALANCE */
+
+  .balance {
+
+    font-size: small;
+
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 0; */
+    width: 25%;
+    height: 13%;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+
+    /* background: #FFFFFF; */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 0px 0px 0px 16px; */
+  }
+
+}
+
+@media only screen and (max-width: 426px) {
+
+  /* INFORMATION */
+
+  .information {
+    padding-top: 4rem;
+  }
+
+  .information--title {
+  }
+
+  .information--wrapper {
+    /* display: flex; */
+    flex-direction: column-reverse;
+  }
+
+  .information--table {
+    font-size: small;
+    padding: .25rem;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    min-width: 100%;
+  }
+
+  .information--general {
+    /* padding: .5rem; */
+    margin: 1rem auto;
+    max-width: 100%;
+  }
+
+  /* YOUR CARDS */
+
+  .your-cards {
+    margin-top: 1rem;
+  }
+
+  .your-cards--list {
+    /* margin-top: 1rem; */
+    font-size: small;
+  }
+
+  .your-cards--list .card-title, .card-text {
+    /* margin-top: 1rem; */
+    font-size: small;
+  }
+
+  /* TRANSACTIONS */
+
+  .transactions {
+    padding-top: 3rem;
+  }
+
+  .transactions--title {
+  }
+
+  .transactions--wrapper {
+    /* display: flex; */
+    flex-direction: column;
+  }
+
+  .transactions--table {
+    font-size: small;
+    padding: .25rem;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    min-width: 100%;
+  }
+
+  /* BALANCE */
+
+  .balance {
+
+    font-size: x-small;
+
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 0; */
+    width: 85%;
+    height: 6%;
+
+    /* display: flex; */
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+    /* background: #FFFFFF; */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 0px 0px 0px 16px; */
+  }
+
+}
