@@ -132,18 +132,17 @@ p {
 }
 
 .about--image-left {
-  background-image: url('https://lh3.googleusercontent.com/proxy/M3DCPXOiUJ-c09Fl-R3buSRn5OwekxtvLYjF5poyczcm2pezOe9yGKQgtXfb3MKV0ly8fcy_etjbapsFQ5NJm9ddBxqd2BN1C39IhiWm-FnijmEjmO1nrOHL5bU6wOia');
+  background-image: url('https://thumbs.dreamstime.com/b/online-internet-data-information-password-vector-illustration-protection-technology-cartoon-network-security-secure-187256498.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .about--image-right {
-  background-image: url('https://lh3.googleusercontent.com/proxy/PmEDrXIXYCIx-3hWOHDrARiamd-x2Az7GXcD1QpD7xJj-h24lv8tOmrhqFB9KKazUXnvkYpAfVV6fj3jjdKwYtEhoDfsJO8bkEzETIkKLXwGJhG9JmtrmmqKl-1xKZU5RNkcKWQms4bb9iByUgO2jz844mMHnEQ2ZEyej1U5RxtL5A')  ;
+  background-image: url('https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2019/05/O-que-e-Home-Office-Guia-Pratico-2019-1280x720.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-
 }
 
 .about--wrapper {
@@ -165,24 +164,153 @@ p {
 
 .commitment--box {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  /* max-width: 40%; */
   height: 100%;
+  padding: 0 4em;
+}
+
+
+.commitment--box-title {
+  font-weight: 700;
+}
+
+.commitment--box-text {
+  color: #fff;
+  max-width: 80%;
+  padding-left: 1.5em;
+}
+
+.commitment--box-image {
 }
 
 /* GALLERY */
 
 .gallery {
-  background: #fafafa;
-  height: calc(100vh - 95px);
+  /* background: tra */
+  background: #1D1C1C;
+  min-height: calc(100vh - 95px);
 }
 
 .gallery--box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
+  padding: 3em 1em;
 }
+
+.gallery--services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery--card {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width: 400px !important;
+  height: 200px !important;
+  padding: 1em;
+  border: 1px solid #d9d9d9;
+  transition: 0.2s ease-in-out;
+}
+
+.gallery--card:hover {
+  background: #fff;
+  /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 100%, rgba(207,207,207,1) 100%); */
+  transform: scale(1.05);
+}
+
+.gallery--box-text,
+.gallery--box-title,
+.gallery--card-title,
+.gallery--card-text {
+  color: #fff;
+}
+
+.gallery--card:hover .gallery--box-text,
+.gallery--card:hover .gallery--box-title,
+.gallery--card:hover .gallery--card-title,
+.gallery--card:hover .gallery--card-text
+ {
+  color: #000;
+}
+
+.gallery--card-button {
+  position: relative;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  border: 2px solid #fff;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.gallery--card:hover .gallery--card-button {
+  background: transparent;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.gallery--card span {
+  color: #fff;
+  position: relative;
+  z-index: 50;
+}
+
+.gallery--card:hover span {
+  color: #000;
+}
+
+.gallery--card-button:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  background: #1D1C1C;
+  width: 90%;
+  height: 100%;
+  transform: scaleX(1);
+  transition: 0.2s ease-in-out;
+}
+
+.gallery--card:hover .gallery--card-button:before {
+  background: #fff;
+}
+
+.gallery--card-button:hover:before {
+  transform: scaleX(0);
+}
+
+.gallery--card-button:after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+  background: #1D1C1C;
+  width: 90%;
+  height: 100%;
+  transform: scaleX(1);
+  transition: 0.2s ease-in-out;
+}
+
+.gallery--card:hover .gallery--card-button:after {
+  background: #fff;
+}
+
+.gallery--card-button:hover:after {
+  transform: scaleX(0);
+}
+
 
 /* FOOTER */
 .footer {
