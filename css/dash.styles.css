@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;700;900&family=Spartan:wght@300;400;700;900&display=swap');
+
+html, body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Spartan', sans-serif;
+}
+
+p {
+  font-family: 'Spartan', sans-serif;
+}
+
+:root {
+  --white: #fff;
+}
+
+/* HEADER OFFSET FIX */
+.top--offset {
+  margin-top: 95px;
+}
+
+/* AREA TOP */
+.area-100 {
+  margin-top: 100px;
+}
+
+.area-150 {
+  margin-top: 150px;
+}
+
+.area-200 {
+  margin-top: 200px;
+}
+
+/* AREA BOTTOM */
+.area--b-100 {
+  margin-bottom: 100px;
+}
+
+.area--b-150 {
+  margin-bottom: 150px;
+}
+
+.area--b-200 {
+  margin-bottom: 150px;
+}
+
+.dark--text {
+  color: #000;
+}
+
+.red--text {
+  color: #f00;
+}
+
+.green--text {
+  color: #090;
+}
+
+/* HEADER */
+.header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 95px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.header--logo {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.header--wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* FOOTER */
+.footer {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.footer--title {
+  margin: 0;
+}
+
+/* INFORMATION */
+
+.information {
+  padding-top: 3rem;
+}
+
+.information--title {
+}
+
+.information--wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.information--table {
+  padding: .5rem;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 45%;
+}
+
+.information--general {
+  padding: .5rem;
+  margin: 2rem auto;
+  max-width: 50%;
+}
+
+/* YOUR CARDS */
+
+.your-cards {
+  margin-top: 3rem;
+}
+
+.your-cards--list {
+  margin-top: 1rem;
+}
+
+/* TRANSACTIONS */
+
+.transactions {
+  padding-top: 3rem;
+}
+
+.transactions--title {
+}
+
+.transactions--wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.transactions--table {
+  padding: .5rem;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 45%;
+}
+
