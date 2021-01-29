@@ -454,3 +454,10 @@ button, a {
 .card-product .card-product-infos {
   padding: 16px;
 }
+
+
+/* LOGIN */
+.login--image {
+  width: 500px;
+  height: 500px;
+}
