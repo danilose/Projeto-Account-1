@@ -126,6 +126,16 @@ button, a {
   transform-origin:0 50%;
 }
 
+@media screen and (max-width: 509px) {
+  .header {
+    height: auto;
+  }
+
+  .header--wrapper {
+    flex-direction: column;
+  }
+}
+
 /* BANNER */
 .banner {
   background-image: url('../images/banner.jpg');
@@ -272,6 +282,17 @@ button, a {
 }
 
 .commitment--box-image {
+}
+
+@media screen and (max-width: 821px) {
+  .commitment {
+    height: auto;
+  }
+
+  .commitment--box {
+    flex-direction: column;
+    padding: 1em;
+  }
 }
 
 /* GALLERY */
@@ -460,4 +481,11 @@ button, a {
 .login--image {
   width: 500px;
   height: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .login {
+    flex-direction: column;
+    margin-top: 15vh;
+  }
 }
