@@ -193,6 +193,17 @@ button, a {
   }
 }
 
+@media screen and (max-width: 564px) {
+  .banner--box {
+    align-items: center;
+    max-width: 100%;
+    margin: 0 !important;
+  }
+
+  .banner--button {
+  }
+}
+
 /* ABOUT */
 .about--title {
   position: relative;
@@ -252,6 +263,30 @@ button, a {
 .about--row-text {
   /* max-width: 30%; */
   margin: auto;
+}
+
+@media screen and (max-width: 564px) {
+  .about--title:before {
+    font-size: 50px;
+  }
+
+  .about--row {
+    flex-direction: column;
+    margin: 1em 0;
+  }
+
+  .about--row:last-child {
+    flex-direction: column-reverse;
+  }
+
+  .about--image-left,
+  .about--image-right {
+  width: 100%;
+  }
+
+  .about--wrapper {
+    max-width: 90%;
+  }
 }
 
 /* COMMITMENT */
@@ -426,6 +461,12 @@ button, a {
   transform: scaleX(0);
 }
 
+
+@media screen and (max-width: 564px) {
+  .gallery {
+    padding-bottom: 2em;
+  }
+}
 
 /* FOOTER */
 .footer {
