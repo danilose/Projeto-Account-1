@@ -9,6 +9,11 @@ html, body {
   box-sizing: border-box;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Spartan', sans-serif;
 }
@@ -76,6 +81,11 @@ button, a {
 .header--logo {
   font-size: 50px;
   font-weight: 700;
+  color: #000;
+}
+
+.header--logo:hover {
+  color: #000;
 }
 
 .header--wrapper {
@@ -116,10 +126,7 @@ button, a {
   transform-origin:0 50%;
 }
 
-
-
 /* BANNER */
-
 .banner {
   background-image: url('../images/banner.jpg');
   background-repeat: no-repeat;
@@ -133,7 +140,6 @@ button, a {
   align-items: start;
   justify-content: center;
   flex-direction: column;
-  /* background: #c4c4c4; */
   max-width: 30%;
   height: calc(100vh - 95px);
   margin: 0 0 5em 3em;
